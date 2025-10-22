@@ -2,9 +2,10 @@ package main
 
 import "fmt"
 
-// this code actually prints the first four letter in the string//
+// this progma prints the total letters in the string//
 
 func main() {
 	str := "Ushaiscloud"
-	fmt.Println(str[:4])
+	count := len(str)
+	fmt.Println(count)
 }
