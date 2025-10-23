@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	for i := 0; i <= 9; i++ {
-		fmt.Print(i)
+	for char := 'z'; char >= 'a'; char-- {
+		fmt.Printf("%c", char)
 	}
 	fmt.Println()
 }
